@@ -1,4 +1,3 @@
-import { RouterModule } from '@angular/router';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -14,7 +13,6 @@ import { UserComponent } from './user/user.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
